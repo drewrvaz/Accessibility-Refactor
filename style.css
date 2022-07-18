@@ -38,10 +38,7 @@ body {
     font-size: 20px;
 }
 
-/*This code is unnecessary since the inline-display tag will remove the bullet points
-.header div ul {
-    list-style-type: none;
-}*/
+/*Removed unnecessary code*/
 
 /*Class selector tells the list items in the header how to display (removed unnecessary ul tag)*/
 .header div li {
