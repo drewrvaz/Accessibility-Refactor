@@ -29,7 +29,7 @@ body {
     color: #d9dcd6;
 }
 
-/*This selector is to help format the ul contained within the header that has the links*/
+/*Class selector to help format the ul contained within the header that has the links*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -43,21 +43,24 @@ body {
     list-style-type: none;
 }*/
 
-/*This selector tells the list items in the header how to display (removed unnecessary ul tag)*/
+/*Class selector tells the list items in the header how to display (removed unnecessary ul tag)*/
 .header div li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Element selector telling all links how to appear on the page, removes the underline from them*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Element selector telling all paragraph text how big the font should be*/
 p {
     font-size: 16px;
 }
 
+/*Class selector telling the image that displays at the top of the page how it should look when the webpage is loaded*/
 .hero {
     height: 800px;
     width: 100%;
@@ -67,81 +70,15 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/*Tells the boxes containing search engine optimization, online reputation management, and social media marketing how to format on the webpage*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/*Moved all of the items contained in the content section of the HTML code so they appear beneath the content section on CSS
+This organizes the CSS code more efficeintly, if there was an issue in a section now all the code in that section is together*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -169,33 +106,72 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
+/*Shortened the code applying to all images in the content section, putting them in one group*/
+.content img {
+   max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
+/*Shortened the code applying to h2's in the content section, wrapping them into one group instead of doing each one individually*/
+.content h2 {
+margin-bottom: 20px;
+font-size: 36px;
 }
 
-.social-media-marketing img {
-    max-height: 200px;
+/*These class selectors tell the images in the content section which side of their boxes they should appear on*/
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/*Moved the code so that all of the CSS code applying to the benefits section on HTML is together*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
 }
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/*The below class selectors tell the words within each benefits section what color they are, and how much margin should be between them*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Removed the individual h3 class selectors and combined them into one under the benefits class selector to simplify the code*/
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/*Removed the individual img class selectors and combined them into one under the benefits class selector to simplify the code*/
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/*The below class selectors tell the footer, and the text within the footer how to render on the webpage*/
 .footer {
     padding: 30px;
     clear: both;
