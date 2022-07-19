@@ -1,7 +1,10 @@
 # Module-01-Homework
 This is our first graded homework assignment for the MSU Coding BootCamp. In this assignment, we were given code to edit to make sure that the 
-webpage we were working on matched the mockup that was given to us. We had to edit CSS and HTML code for this assignment. The instructions for 
-the assignment are copied below.
+webpage we were working on matched the mockup that was given to us. We had to edit CSS and HTML code for this assignment. 
+
+Actions taken: cleaned up CSS, added alt text to HTML images, and connected and pushed site to a Github Repository
+
+The instructions for the assignment are copied below.
 
 ## Acceptance Criteria
 
