@@ -1,7 +1,7 @@
 # Module-01-Homework
 
 ## Description
-The Horiseon webpage has a header, a footer, in page links, and a description of what the company can do for you. I learned how to look through code, and refractor it to make it more accessible.
+The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page. I learned how to look through code, and refractor it to make it more accessible.
 
 ## User Story
 
